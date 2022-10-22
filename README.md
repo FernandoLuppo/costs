@@ -1,70 +1,70 @@
-# Getting Started with Create React App
+<div align="center">
+<h1> 🪙 Página de Custos 🪙 </h1>
+</div>
+  
+<p align="center">
+  Olá!! Criei um site onde você pode criar projetos, ao criar um novo projeto o usuário tem que preencher alguns campos como: Nome do projeto,
+  orçamento e categoria, após a criação é possível adicionar serviços desde que não ultrapace o budget.
+</p>
+  
+<br><br>
+  
+<p>💻 As tecnologias usadas no projeto foram:
+   
+<p>
+<br> - JavaScript
+<br> - CSS
+<br> - HTML
+<br> - React.js
+<br> - JSON Server
+<br> - React Icons
+<br> - React Router
+<br> - uuid
+</p>
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+<br><br>
 
-## Available Scripts
+<h2>Página Home</h2>
 
-In the project directory, you can run:
+<br>
 
-### `npm start`
+<p>A página Home é onde você pode começar a criar seus projetos clicando no botão "Criar Projeto"</p>
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+<img src=https://user-images.githubusercontent.com/95176596/197363501-70f2ff9f-6498-4694-9f9d-23a62800c29a.png>
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+<h2>Novo Projeto</h2>
+<p>
+  Esta é a página onde você poderá criar seus projetos, primeiramente temos que preencher três campos: Nome do projeto, orçamento e categoria.
+  <br>
+  Sobre as categorias, se constituem em quatro diferentes tipos: Infraestrutura, Desenvolvimento, Design e Planejamento
+</p>
 
-### `npm test`
+<img src=https://user-images.githubusercontent.com/95176596/197363663-1ab38d21-a2a0-457b-841f-515eccd794fd.png>
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+<br>
 
-### `npm run build`
+<h2>Projeto</h2>
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+<p>
+  Nesta página você poderá ver seus projetos criados, apaga-los ou edita-los, uma mensagem aparece assim que você cria ou deletar um projeto
+  sinalizando o sucesso da ação
+</p>
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+<img src=https://user-images.githubusercontent.com/95176596/197363823-ab9ca2fe-bdd7-415c-a423-93f20cff6943.png>
+<img src=https://user-images.githubusercontent.com/95176596/197363868-2754242f-cbb5-4433-b76c-bb0e59db8ec1.png>
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+<br>
 
-### `npm run eject`
+<h2>Editar Projeto</h2>
+<p>
+  Essa página serve para você editar seu projeto ou adicionar serviços a ele, como por exemplo desenvolver um novo software.
+  <br>
+  Ao adicionar um novo serviço você terá que preencher três campos: Nome do serviço, Custo do serviço e Descrição do serviço, o custo do serviço não poderá
+  ultrapassar o budget do projeto, o sistema não salvará o novo serviço caso isso aconteça e o usuário será notificado através de uma mensagem.
+  <br>
+  Ao criar um novo serviço o projeto irá ficar visível na parte inferior da página e os dados do "Total utilizado" serão atualizados, 
+  somando com os demais projetos caso tenha feito mais algum.
+</p>
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+<img src=https://user-images.githubusercontent.com/95176596/197364205-208ba9ee-522b-443f-a235-a9963858525f.png>
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
-
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
